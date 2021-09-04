@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog de Perros" />
+    <meta
+      name="author"
+      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco, Aleajndro Conti,Mariano Meik"
+    />
+    <meta name="keywords" content="perros, razas, opiniones" />
+    <!-- CSS only bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e304c7dec7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blog de Firu</title>
+    <link rel="shortcut icon" href="../img/iconPage.png">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark colorFondo fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/iconLogo.png" alt="imagen del logotipo de blog del firu" width="90px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBarPlantilla"
+            aria-controls="navBarPlantilla"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBarPlantilla">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Razas.html">Nuestras Razas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AcercaDeNosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="login.html" class="btn colorBotonIS">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item px-1">
+                <button
+                  class="btn colorSuscripcion"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalSuscripcion"
+                >
+                  Suscripción
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-5 my-5">
+      <section>
+          <nav
+            style="--bs-breadcrumb-divider: '>'"
+            aria-label="breadcrumb"
+            class="bg-light pt-2 mt-5"
+          >
+            <ol class="breadcrumb container">
+              <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+              <li class="breadcrumb-item">
+                <a href="Razas.html">Nuestras Razas</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Chihuahua
+              </li>
+            </ol>
+          </nav>
+          <h1 class="display-2 text-center ">Chihuahua</h1>
+          <hr />
+          <article class="row w-100 my-2 container-fluid">
+            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+              <img
+                src="../img/galeria imagenes/chihuahua.png"
+                alt="imagen de un Chihuahua"
+                class="w-100 rounded"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+              <p class="lead">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+                mollitia. Quas dolor sed veritatis a quos corporis deserunt
+                minima.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                libero quaerat, aperiam exercitationem vero nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae recusandae provident? Laboriosam ea numquam excepturi obcaecati delectus reprehenderit tempore sit reiciendis harum quaerat voluptatem sed ipsa fugiat eos illum velit deleniti quod totam exercitationem, dolorem ad? Soluta laborum officiis, dicta laudantium, eveniet unde doloremque, ex aspernatur maxime dignissimos delectus?
+              </p>
+            </div>
+          </article>    
+        </section>
+        <!--seccion video-->
+    <section class="container my-5">
+      <article class=" row">
+        <div class=" col-sm-12">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/YIDJZLFrkKw?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </article>
+    </section>
+    <!--seccion comentarios-->
+    <section class=" container my-5">
+      <article class=" row">
+        <div class="col-sm-12">
+          <form>
+            <label for="consulta" class=" form-label">
+              <h3>Ingrese su Comentario</h3>
+            </label>
+            <textarea name="comentarios" id="consulta" rows="5" class=" form-control"
+              placeholder="Agregue su comentario aqui" required minlength="3"></textarea>
+
+            <button type="submit" class="btn btn-primary my-3">
+              Enviar
+            </button>
+          </form>
+        </div>
+        <div class=" col-sm-12 my-5">
+          <h3>Ultimos Comentarios</h3>
+          <ol class="list-group list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <i class="far fa-user text-primary fa-2x"></i>
+              <div class="ms-5 me-auto">
+                <div class="fw-bold mb-2">Acevedo Natalia</div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
+                provident suscipit autem fugit molestias?
+              </div>
+              <span class="badge bg-primary tiempo">1hs</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <i class="far fa-user text-primary fa-2x"></i>
+              <div class="ms-5 me-auto">
+                <div class="fw-bold mb-2"> Soberon Thiago</div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
+                provident suscipit autem fugit molestias?
+              </div>
+              <span class="badge bg-primary tiempo">2hs</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <i class="far fa-user text-primary fa-2x"></i>
+              <div class="ms-5 me-auto">
+                <div class="fw-bold mb-2">Fernandez Diego</div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
+                provident suscipit autem fugit molestias?
+              </div>
+              <span class="badge bg-primary tiempo">3hs</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <i class="far fa-user text-primary fa-2x"></i>
+              <div class="ms-5 me-auto">
+                <div class="fw-bold mb-2">Chibilisco Alan</div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
+                provident suscipit autem fugit molestias?
+              </div>
+              <span class="badge bg-primary tiempo">4hs</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <i class="far fa-user text-primary fa-2x"></i>
+              <div class="ms-5 me-auto">
+                <div class="fw-bold mb-2">Meik Mariano</div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
+                provident suscipit autem fugit molestias?
+              </div>
+              <span class="badge bg-primary tiempo">5hs</span>
+            </li>
+          </ol>
+        </div>
+
+      </article>
+    </section>
+  </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="ModalSuscripcion"
+      tabindex="-1"
+      aria-labelledby="ModalSuscripcion"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalSuscripcion">Suscripción</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="w-100" alt="" />
+            <p><span class="fw-bold"> </span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------fin modal-------------------------------------------------->
+
+    <footer class="container-fluid colorFondo">
+      <section class="container">
+        <article class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-4 logoResponsive">
+          <a href="../index.html"><img src="../img/iconLogo.png" alt="icono del logotipo de blog del firu" width="90px"></a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-4">
+          <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light aria-current="
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Razas.html"
+                >Nuestras Razas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="AcercaDeNosotros.html"
+                >Acerca de Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Contacto.html"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Error504.html"
+                >Legales</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-4  text-light">
+          <h5 class="logoResponsive">Seguinos en nuestras redes</h5>
+          <div class=" d-flex redesResponsive">
+            <a href="Error504.html" class="text-white facebook" target="blank"
+              ><i class="fab fa-facebook-square fa-2x px-1"></i
+            ></a>
+            <a href="Error504.html" class="text-white twitter" target="blank"
+              ><i class="fab fa-twitter-square fa-2x px-1"></i
+            ></a>
+            <a href="Error504.html" class="text-white instagram" target="blank"
+              ><i class="fab fa-instagram fa-2x px-1"></i
+            ></a>
+          </div>
+        </div>
+      </article>
+      </section>
+    </footer>
+
+    <!-- JavaScript  -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

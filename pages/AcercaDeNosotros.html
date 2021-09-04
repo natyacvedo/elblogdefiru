@@ -18,11 +18,11 @@
       crossorigin="anonymous"
     ></script>
     <title>Blog de Firu</title>
-    <link rel="shortcut icon" href="../img/iconPage.png" />
+    <link rel="shortcut icon" href="../img/iconPage.png">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark colorFondo fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark colorFondo fixed-top ">
         <div class="container">
           <a class="navbar-brand" href="../index.html">
             <img src="../img/iconLogo.png" alt="imagen del logotipo de blog del firu" width="90px" />
@@ -49,12 +49,12 @@
                 <a class="nav-link" href="Razas.html">Nuestras Razas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="AcercaDeNosotros.html"
+                <a class="nav-link active" href="AcercaDeNosotros.html"
                   >Acerca de Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="Contacto.html">Contacto</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item px-1">
                 <a href="login.html" class="btn colorBotonIS">Iniciar Sesión</a>
@@ -74,68 +74,78 @@
         </div>
       </nav>
     </header>
-
-      <main class="container py-5 my-5">
-        <section class="my-5">
-          <h1 class="display-2 text-center">Contacto</h1>
-          <hr />
-          <article class="row">
-            <div class="col-sm-12 col-md-6">
-              <form>
-                <div class="mb-3">
-                  <label for="nombreApellido" class="form-label"
-                    >Nombre y apellido*</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="nombreApellido"
-                    placeholder="Juan Perez"
-                    required
-                    minlength="3"
-                    maxlength="35"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email*</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Juanperez@gmail.com"
-                    required
-                    maxlength="100"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="" class="for-label">Consulta*</label>
-                  <textarea
-                    name=""
-                    id="consulta"
-                    rows="4"
-                    class="form-control"
-                    placeholder="agregue su mensaje aqui.."
-                    required
-                    maxlength="250"
-                  ></textarea>
-                </div>
-                <button class="btn btn-primary" type="submit">Enviar</button>
-              </form>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5130162196947!2d-65.21352678502544!3d-26.791788983179817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225dc8f79c8ded%3A0xdb3672f936b10bd4!2sCenARA%20(Centro%20de%20Adaptaci%C3%B3n%20y%20Reubicaci%C3%B3n%20Animal)!5e0!3m2!1ses-419!2sar!4v1630446705119!5m2!1ses-419!2sar"
-                class="w-100"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
-          </article>
-        </section>
-      </main>
-   
+    <main class="container  py-5 my-5">
+      <div class="text-center">
+        <h1 class="display-2 pt-5">Quiénes somos</h1>
+        <p>
+          Somos los integrantes del grupo #4 de la comisión 19I. Este es nuestro primer proyecto juntos. Elegimos la temática: Raza de Perros.
+          A continuación les presentamos una breve descripción de cada uno:
+        </p>
+        <hr class="my-5 colorRaya"/>
+      </div>
+      <article class="contenedorImg row text-center m-3">
+        <div class="img1 col-md-4 col-sm-12 pt-3">
+          <img
+            class="imgCircular shadow"
+            src="../img/acercaDeNosotros/Mariano.png"
+            alt="presentacionMariano"
+          />
+          <h5 class="text-center my-3">Mariano Meik</h5>
+          <p class="text-center">
+            Tengo 31 años. Me dedico a la gastronomía. Me gusta hacer deporte.
+          </p>
+        </div>
+        <div class="img1 col-md-4 col-sm-12 pt-3">
+          <img
+            class="imgCircular shadow"
+            src="../img/acercaDeNosotros/Alan.png"
+            alt="presentacionAlan"
+          />
+          <h5 class="text-center my-3">Alan Chibilisco</h5>
+          <p class="text-center">
+            Tengo 33 años. Soy empleado administrativo. Me gustan la
+            informática, la electrónica y la astronomía.
+          </p>
+        </div>
+        <div class="img1 col-md-4 col-sm-12 pt-3">
+          <img
+            class="imgCircular shadow"
+            src="../img/acercaDeNosotros/Diego.png"
+            alt="presentacionDiego"
+          />
+          <h5 class="text-center my-3">Diego Fernández</h5>
+          <p class="text-center">
+            Tengo 25 años. Soy agente telefónico en un Call Center e Instructor
+            de Calistenia en un gimnasio. Me gustan el deporte y la informática
+          </p>
+        </div>
+      </article>
+      <article class="row justify-content-center text-center m-3">
+        <div class="img1 col-md-4 col-sm-12 pt-3">
+          <img
+            class="imgCircular shadow"
+            src="../img/acercaDeNosotros/Naty.png"
+            alt="presentacionNaty"
+          />
+          <h5 class="text-center my-3">Naty Acevedo</h5>
+          <p class="text-center">
+            Tengo 34 años. Soy estudiante en Rolling Code. Me gusta emprender y diseñar.
+          </p>
+        </div>
+        <div class="img1 col-md-4 col-sm-12 pt-3">
+          <img
+            class="imgCircular shadow"
+            src="../img/acercaDeNosotros/Mariano.png"
+            alt="presentacionThiago"
+          />
+          <h5 class="text-center my-3">Thiago Soberón</h5>
+          <p class="text-center">
+            Tengo 31 años. Me dedico a la gastronomía. Me gusta hacer deporte
+          </p>
+        </div>
+      </article>
+      <hr class="my-5 colorRaya" />
+    </main>
     <!-- Modal -->
     <div
       class="modal fade"

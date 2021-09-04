@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog de Perros" />
+    <meta
+      name="author"
+      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco, Aleajndro Conti,Mariano Meik"
+    />
+    <meta name="keywords" content="perros, razas, opiniones" />
+    <!-- CSS only bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e304c7dec7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blog de Firu</title>
+    <link rel="shortcut icon" href="../img/iconPage.png">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark colorFondo fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/iconLogo.png" alt="imagen del logotipo de blog del firu" width="90px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBarPlantilla"
+            aria-controls="navBarPlantilla"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBarPlantilla">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Razas.html">Nuestras Razas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AcercaDeNosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="login.html" class="btn colorBotonIS">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item px-1">
+                <button
+                  class="btn colorSuscripcion"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalSuscripcion"
+                >
+                  Suscripción
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-5 my-5">
+      <section class="my-5 ">
+        <h1 class="dislplay-2 text-center pt-5"> Nuestras Razas</h1>
+        <hr>
+        <article class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/beagle.png" alt="Imagen de un Beagle">
+              <div class="card-body">
+                <h5 class="card-title">Beagle </h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Beagle.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/bulldogFrances.png" alt="Imagen de bulldog Frances">
+              <div class="card-body">
+                <h5 class="card-title">Bulldog Francés <span class="badge bg-danger">Nuevo</span></h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="BulldogFrances.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/cachorroCaniche.png" alt="Imagen de un Caniche">
+              <div class="card-body">
+                <h5 class="card-title">Caniche</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Caniche.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/chihuahua.png" alt="Imagen de un Chihuahua">
+              <div class="card-body">
+                <h5 class="card-title">Chihuahua</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Chihuahua.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/cocker.png" alt="Imagen de un Cocker">
+              <div class="card-body">
+                <h5 class="card-title">Cocker</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Cocker.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/goldenAdulto.png" alt="Imagen de un Golden">
+              <div class="card-body">
+                <h5 class="card-title">Golden</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Golden.html"class="btn btn-primary">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/ovejeroAleman.png" alt="Imagen de un Ovejero Aleman">
+              <div class="card-body">
+                <h5 class="card-title">Ovejero Aleman</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="OvejeroAleman.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 shadow py-2">
+            <div class="card">
+              <img src="../img/galeria imagenes/pitbull.png" alt="Imagen de un Pitbull">
+              <div class="card-body">
+                <h5 class="card-title">Pitbull</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, sit.</p>
+                <a href="Pitbull.html"class="btn btn-primary ">Ver más</a>                
+              </div>
+            </div>            
+          </div>
+        </article>
+      </section>
+      <nav aria-label="Page navigation ">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previo">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link active" href="Razas.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="Razas2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="Error504.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="Error504.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="Error504.html">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Siguiente">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="ModalSuscripcion"
+      tabindex="-1"
+      aria-labelledby="ModalSuscripcion"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalSuscripcion">Suscripción</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="w-100" alt="" />
+            <p><span class="fw-bold"> </span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------fin modal-------------------------------------------------->
+
+    
+
+    
+<footer class="container-fluid colorFondo">
+  <section class="container">
+    <article class="row">
+    <div class="col-sm-12 col-md-4 col-lg-4 py-4 logoResponsive">
+      <a href="../index.html"><img src="../img/iconLogo.png" alt="icono del logotipo de blog del firu" width="90px"></a>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 py-4">
+      <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link active text-light aria-current="
+            href="../index.html"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Razas.html"
+            >Nuestras Razas</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="AcercaDeNosotros.html"
+            >Acerca de Nosotros</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Contacto.html"
+            >Contacto</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Error504.html"
+            >Legales</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 py-4  text-light">
+      <h5 class="logoResponsive">Seguinos en nuestras redes</h5>
+      <div class=" d-flex redesResponsive">
+        <a href="Error504.html" class="text-white facebook" target="blank"
+          ><i class="fab fa-facebook-square fa-2x px-1"></i
+        ></a>
+        <a href="Error504.html" class="text-white twitter" target="blank"
+          ><i class="fab fa-twitter-square fa-2x px-1"></i
+        ></a>
+        <a href="Error504.html" class="text-white instagram" target="blank"
+          ><i class="fab fa-instagram fa-2x px-1"></i
+        ></a>
+      </div>
+    </div>
+  </article>
+  </section>
+</footer>
+<!-- JavaScript  -->
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
