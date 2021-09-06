@@ -7,7 +7,7 @@
     <meta name="description" content="Blog de Perros" />
     <meta
       name="author"
-      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco, Aleajndro Conti,Mariano Meik"
+      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco,Mariano Meik"
     />
     <meta name="keywords" content="perros, razas, opiniones" />
     <!-- CSS only bootstrap -->
@@ -40,28 +40,28 @@
           </button>
           <div class="collapse navbar-collapse" id="navBarPlantilla">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link active" href="Razas.html">Nuestras Razas</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="AcercaDeNosotros.html"
                   >Acerca de Nosotros</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
-              <li class="nav-item px-1">
-                <a href="login.html" class="btn colorBotonIS">Iniciar Sesión</a>
+              <li class="nav-item px-1 mx-2">
+                <a href="login.html" class="btn colorBotonIS marginBotonesNav">Iniciar Sesión</a>
               </li>
-              <li class="nav-item px-1">
+              <li class="nav-item px-1 mx-2">
                 <button
-                  class="btn colorSuscripcion"
+                  class="btn colorSuscripcion marginBotonesNav"
                   type="button"
                   data-bs-toggle="modal"
                   data-bs-target="#ModalSuscripcion"
@@ -102,14 +102,17 @@
               />
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-              <p class="lead">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
-                mollitia. Quas dolor sed veritatis a quos corporis deserunt
-                minima.
+              <p class>
+               <h2>Perros de casa ideales.</h2>
               </p>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                libero quaerat, aperiam exercitationem vero nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae recusandae provident? Laboriosam ea numquam excepturi obcaecati delectus reprehenderit tempore sit reiciendis harum quaerat voluptatem sed ipsa fugiat eos illum velit deleniti quod totam exercitationem, dolorem ad? Soluta laborum officiis, dicta laudantium, eveniet unde doloremque, ex aspernatur maxime dignissimos delectus?
+                La raza de <b>Perros Salchicha</b> tienen fama de tener una personalidad muy fuerte. Son animales un poco testarudos que necesitan a alguien que sea muy paciente con ellos, que no ceda tan fácilmente a los deseos del can. Pero ojo, esto no significa que haya que educarlo gritándole o pegándole, maneras, por otra parte, que nunca han servido para enseñar a un perro; más bien significa que hay que ser firmes y constantes. El puede insistir, pero debemos ser fuertes y mantenernos firmes en este sentido.
+              </p>
+              <p>
+                Son leales, graciosos, cómicos y entretenidos. Además son excelentes perros de vigilancia. Pueden adaptarse tanto a grandes como a pequeños espacios. Por otro lados, debes prestar atención a algunas emociones que pueden desarrollar como el miedo y agresividad hacia perros más grandes.
+              </p>
+              <p>
+                Pueden llamar la atención con ladridos excesivos y seguro te sorprenderá su obsesión por hacer agujeros que es una pasión arraigada en su genética.
               </p>
             </div>
           </article>    
@@ -131,7 +134,7 @@
               <h3>Ingrese su Comentario</h3>
             </label>
             <textarea name="comentarios" id="consulta" rows="5" class=" form-control"
-              placeholder="Agregue su comentario aqui" required minlength="3"></textarea>
+              placeholder="Agregue su comentario aqui" required minlength="3" maxlength="250"></textarea>
 
             <button type="submit" class="btn btn-primary my-3">
               Enviar
@@ -193,34 +196,112 @@
     </section>
 
   </main>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="ModalSuscripcion"
-      tabindex="-1"
-      aria-labelledby="ModalSuscripcion"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalSuscripcion">Suscripción</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <img src="" class="w-100" alt="" />
-            <p><span class="fw-bold"> </span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--------------------------------fin modal-------------------------------------------------->
+     <!-- Modal -->
+     <div
+     class="modal fade"
+     id="ModalSuscripcion"
+     tabindex="-1"
+     aria-labelledby="ModalSuscripcion"
+     aria-hidden="true"
+   >
+     <div class="modal-dialog modal-fullscreen-xl-down">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title " id="ModalSuscripcion">Suscripción</h5>
+           <button
+             type="button"
+             class="btn-close"
+             data-bs-dismiss="modal"
+             aria-label="Close"
+           ></button>
+         </div>
+         <div class="modal-body">
+           <form class="row g-4 was-validated">
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServer01" class="form-label">Nombre</label>
+               <input type="text" class="form-control is-valid" id="validationServer01"  placeholder="Marcelo" maxlength="20" required>
 
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServer02" class="form-label">Apellido</label>
+               <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Gomez" maxlength="20" required>
+
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServerUsername" class="form-label">Usuario</label>
+               <div class="input-group has-validation">
+                 <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                 <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="tucu10" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" maxlength="10" required>
+               </div>
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServer03" class="form-label">Ciudad</label>
+               <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Yerba Buena" aria-describedby="validationServer03Feedback" maxlength="30" required>
+
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServer04" class="form-label">Provincia</label>
+               <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                 <option selected disabled value="">Seleccione</option>
+                 <option>Buenos Aires</option>
+                 <option>Capital Federal</option>
+                 <option>Catamarca</option>
+                 <option>Chaco</option>
+                 <option>Chubut</option>
+                 <option>Cordoba</option>
+                 <option>Corrientes</option>
+                 <option>Entre Ríos</option>
+                 <option>Formosa</option>
+                 <option>Jujuy</option>
+                 <option>La Pampa</option>
+                 <option>La Rioja</option>
+                 <option>Mendoza</option>
+                 <option>Misiones</option>
+                 <option>Neuquén</option>
+                 <option>Rio Negro</option>
+                 <option>Salta</option>
+                 <option>San Juan</option>
+                 <option>San Luis</option>
+                 <option>Santa Cruz</option>
+                 <option>Santa Fe</option>
+                 <option>Santiago del Estero</option>
+                 <option>Tierra del Fuego</option>
+                 <option>Tucumán</option>
+               </select>
+
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+               <label for="validationServer05" class="form-label">Código Postal</label>
+               <input type="number" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" placeholder="4107" maxlength="6" required>
+             </div>
+             <div class="col-md-6 col-lg-6 col-sm-12">
+              <label for="validationServer06" class="form-label">Contraseña</label>
+              <input type="text" class="form-control is-invalid" id="validationServer06" placeholder="*******" aria-describedby="validationServer06Feedback" minlength="6" maxlength="30" required>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <label for="validationServer07" class="form-label">Repita Contraseña</label>
+              <input type="text" class="form-control is-invalid" id="validationServer07" placeholder="*******" aria-describedby="validationServer07Feedback" minlength="6" maxlength="30" required>
+            </div>
+            <div>
+              <p>Mínimo 8 carácteres</p>
+            </div>
+             <div class="col-12">
+               <div class="form-check">
+                 <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                 <label class="form-check-label"  for="invalidCheck3">
+                   Estas de acuerdo con los términos y condiciones.
+                 </label>
+               </div>
+             </div>
+             <div class="col-12">
+               <button class="btn btn-primary" type="submit">Registrar</button>
+             </div>
+           </form>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!--------------------------------fin modal-------------------------------------------------->
     <footer class="container-fluid colorFondo">
       <section class="container">
         <article class="row">

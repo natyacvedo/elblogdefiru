@@ -7,7 +7,7 @@
     <meta name="description" content="Blog de Perros" />
     <meta
       name="author"
-      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco, Aleajndro Conti,Mariano Meik"
+      content="Natalia Acevedo, Thiago Soberon, Diego Fernandez, Alan Chibilisco,Mariano Meik"
     />
     <meta name="keywords" content="perros, razas, opiniones" />
     <!-- CSS only bootstrap -->
@@ -18,14 +18,18 @@
       crossorigin="anonymous"
     ></script>
     <title>Blog de Firu</title>
-    <link rel="shortcut icon" href="../img/iconPage.png">
+    <link rel="shortcut icon" href="../img/iconPage.png" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark colorFondo fixed-top">
         <div class="container">
           <a class="navbar-brand" href="../index.html">
-            <img src="../img/iconLogo.png" alt="imagen del logotipo de blog del firu" width="90px" />
+            <img
+              src="../img/iconLogo.png"
+              alt="imagen del logotipo de blog del firu"
+              width="90px"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -40,28 +44,30 @@
           </button>
           <div class="collapse navbar-collapse" id="navBarPlantilla">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link active" href="Razas.html">Nuestras Razas</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="AcercaDeNosotros.html"
                   >Acerca de Nosotros</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2">
                 <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
-              <li class="nav-item px-1">
-                <a href="login.html" class="btn colorBotonIS">Iniciar Sesión</a>
+              <li class="nav-item px-1 mx-2">
+                <a href="login.html" class="btn colorBotonIS marginBotonesNav"
+                  >Iniciar Sesión</a
+                >
               </li>
-              <li class="nav-item px-1">
+              <li class="nav-item px-1 mx-2">
                 <button
-                  class="btn colorSuscripcion"
+                  class="btn colorSuscripcion marginBotonesNav"
                   type="button"
                   data-bs-toggle="modal"
                   data-bs-target="#ModalSuscripcion"
@@ -76,122 +82,180 @@
     </header>
     <main class="container py-5 my-5">
       <section>
-          <nav
-            style="--bs-breadcrumb-divider: '>'"
-            aria-label="breadcrumb"
-            class="bg-light pt-2 mt-5"
-          >
-            <ol class="breadcrumb container">
-              <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-              <li class="breadcrumb-item">
-                <a href="Razas.html">Nuestras Razas</a>
+        <nav
+          style="--bs-breadcrumb-divider: '>'"
+          aria-label="breadcrumb"
+          class="bg-light pt-2 mt-5"
+        >
+          <ol class="breadcrumb container">
+            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+            <li class="breadcrumb-item">
+              <a href="Razas.html">Nuestras Razas</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Caniche</li>
+          </ol>
+        </nav>
+        <h1 class="display-2 text-center">Caniche</h1>
+        <hr />
+        <article class="row w-100 my-2 container-fluid">
+          <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+            <img
+              src="../img/galeria imagenes/caniche.png"
+              alt="imagen de un Caniche"
+              class="w-100 rounded"
+            />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+            <p><h2>Un cariñoso perro de compañía</h2></p>
+            <p>
+              Los <b>Caniches</b> se presentan en tres tamaños o variantes: el
+              estándar, el enano y el toy. Todos comparten un perfil cuadrado,
+              con un cuello alargado y elegante y una espalda recta. El pelo es
+              su mayor atractivo. Los perros que compiten en las exposiciones
+              deben tener un corte específico, con zonas con un pelo
+              extravagante junto con otras rasuradas. Estos cortes en realidad
+              se crearon por un motivo: proporcionaban un pelaje grueso sobre
+              las articulaciones y pecho para mantener el calor del perro
+              mientras trabajaba en aguas frías.
+            </p>
+            <p>
+             Es una raza que sirve para convivir con personas alérgicas, porque su pelo no muda de forma rutinaria, aunque sí se enreda. Los colores que se ven con mayor frecuencia son el plateado, el blanco, el negro, el albaricoque y el chocolate.
+            </p>
+            <p>Los <b>Caniches</b> son famosos por su inteligencia y fácil adiestramiento, son perros juguetones, activos, amantes de la diversión y con sentido del ridículo. Se sienten realizados siendo el centro de atención y pueden desarrollar malas costumbres, como ladrar de forma molesta, si se los ignora o deja solos.</p>
+          </div>
+        </article>
+      </section>
+      <!--seccion video-->
+      <section class="container my-5">
+        <article class="row">
+          <div class="col-sm-12">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/Kogdqzrx_VM?start=3"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </section>
+      <!--seccion comentarios-->
+      <section class="container my-5">
+        <article class="row">
+          <div class="col-sm-12">
+            <form>
+              <label for="consulta" class="form-label">
+                <h3>Ingrese su Comentario</h3>
+              </label>
+              <textarea
+                name="comentarios"
+                id="consulta"
+                rows="5"
+                class="form-control"
+                placeholder="Agregue su comentario aqui"
+                required
+                minlength="3"
+                maxlength="250"
+              ></textarea>
+
+              <button type="submit" class="btn btn-primary my-3">Enviar</button>
+            </form>
+          </div>
+          <div class="col-sm-12 my-5">
+            <h3>Ultimos Comentarios</h3>
+            <ol class="list-group list-group">
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                "
+              >
+                <i class="far fa-user text-primary fa-2x"></i>
+                <div class="ms-5 me-auto">
+                  <div class="fw-bold mb-2">Acevedo Natalia</div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos voluptas officiis impedit possimus provident
+                  suscipit autem fugit molestias?
+                </div>
+                <span class="badge bg-primary tiempo">1hs</span>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">
-                Caniche
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                "
+              >
+                <i class="far fa-user text-primary fa-2x"></i>
+                <div class="ms-5 me-auto">
+                  <div class="fw-bold mb-2">Soberon Thiago</div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos voluptas officiis impedit possimus provident
+                  suscipit autem fugit molestias?
+                </div>
+                <span class="badge bg-primary tiempo">2hs</span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                "
+              >
+                <i class="far fa-user text-primary fa-2x"></i>
+                <div class="ms-5 me-auto">
+                  <div class="fw-bold mb-2">Fernandez Diego</div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos voluptas officiis impedit possimus provident
+                  suscipit autem fugit molestias?
+                </div>
+                <span class="badge bg-primary tiempo">3hs</span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                "
+              >
+                <i class="far fa-user text-primary fa-2x"></i>
+                <div class="ms-5 me-auto">
+                  <div class="fw-bold mb-2">Chibilisco Alan</div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos voluptas officiis impedit possimus provident
+                  suscipit autem fugit molestias?
+                </div>
+                <span class="badge bg-primary tiempo">4hs</span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                "
+              >
+                <i class="far fa-user text-primary fa-2x"></i>
+                <div class="ms-5 me-auto">
+                  <div class="fw-bold mb-2">Meik Mariano</div>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos voluptas officiis impedit possimus provident
+                  suscipit autem fugit molestias?
+                </div>
+                <span class="badge bg-primary tiempo">5hs</span>
               </li>
             </ol>
-          </nav>
-          <h1 class="display-2 text-center ">Caniche</h1>
-          <hr />
-          <article class="row w-100 my-2 container-fluid">
-            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-              <img
-                src="../img/galeria imagenes/caniche.png"
-                alt="imagen de un Caniche"
-                class="w-100 rounded"
-              />
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-              <p class="lead">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
-                mollitia. Quas dolor sed veritatis a quos corporis deserunt
-                minima.
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                libero quaerat, aperiam exercitationem vero nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae recusandae provident? Laboriosam ea numquam excepturi obcaecati delectus reprehenderit tempore sit reiciendis harum quaerat voluptatem sed ipsa fugiat eos illum velit deleniti quod totam exercitationem, dolorem ad? Soluta laborum officiis, dicta laudantium, eveniet unde doloremque, ex aspernatur maxime dignissimos delectus?
-              </p>
-            </div>
-          </article>    
-        </section>
-        <!--seccion video-->
-    <section class="container my-5">
-      <article class=" row">
-        <div class=" col-sm-12">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Kogdqzrx_VM?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </article>
-    </section>
-    <!--seccion comentarios-->
-    <section class=" container my-5">
-      <article class=" row">
-        <div class="col-sm-12">
-          <form>
-            <label for="consulta" class=" form-label">
-              <h3>Ingrese su Comentario</h3>
-            </label>
-            <textarea name="comentarios" id="consulta" rows="5" class=" form-control"
-              placeholder="Agregue su comentario aqui" required minlength="3"></textarea>
-
-            <button type="submit" class="btn btn-primary my-3">
-              Enviar
-            </button>
-          </form>
-        </div>
-        <div class=" col-sm-12 my-5">
-          <h3>Ultimos Comentarios</h3>
-          <ol class="list-group list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <i class="far fa-user text-primary fa-2x"></i>
-              <div class="ms-5 me-auto">
-                <div class="fw-bold mb-2">Acevedo Natalia</div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
-                provident suscipit autem fugit molestias?
-              </div>
-              <span class="badge bg-primary tiempo">1hs</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <i class="far fa-user text-primary fa-2x"></i>
-              <div class="ms-5 me-auto">
-                <div class="fw-bold mb-2"> Soberon Thiago</div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
-                provident suscipit autem fugit molestias?
-              </div>
-              <span class="badge bg-primary tiempo">2hs</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <i class="far fa-user text-primary fa-2x"></i>
-              <div class="ms-5 me-auto">
-                <div class="fw-bold mb-2">Fernandez Diego</div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
-                provident suscipit autem fugit molestias?
-              </div>
-              <span class="badge bg-primary tiempo">3hs</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <i class="far fa-user text-primary fa-2x"></i>
-              <div class="ms-5 me-auto">
-                <div class="fw-bold mb-2">Chibilisco Alan</div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
-                provident suscipit autem fugit molestias?
-              </div>
-              <span class="badge bg-primary tiempo">4hs</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <i class="far fa-user text-primary fa-2x"></i>
-              <div class="ms-5 me-auto">
-                <div class="fw-bold mb-2">Meik Mariano</div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas officiis impedit possimus
-                provident suscipit autem fugit molestias?
-              </div>
-              <span class="badge bg-primary tiempo">5hs</span>
-            </li>
-          </ol>
-        </div>
-
-      </article>
-    </section>
-  </main>
+          </div>
+        </article>
+      </section>
+    </main>
     <!-- Modal -->
     <div
       class="modal fade"
@@ -200,7 +264,7 @@
       aria-labelledby="ModalSuscripcion"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-fullscreen-xl-down">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="ModalSuscripcion">Suscripción</h5>
@@ -212,8 +276,169 @@
             ></button>
           </div>
           <div class="modal-body">
-            <img src="" class="w-100" alt="" />
-            <p><span class="fw-bold"> </span></p>
+            <form class="row g-4 was-validated">
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer01" class="form-label"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control is-valid"
+                  id="validationServer01"
+                  placeholder="Marcelo"
+                  maxlength="20"
+                  required
+                />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer02" class="form-label"
+                  >Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control is-valid"
+                  id="validationServer02"
+                  placeholder="Gomez"
+                  maxlength="20"
+                  required
+                />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServerUsername" class="form-label"
+                  >Usuario</label
+                >
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend3"
+                    >@</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    id="validationServerUsername"
+                    placeholder="tucu10"
+                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback"
+                    maxlength="10"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer03" class="form-label"
+                  >Ciudad</label
+                >
+                <input
+                  type="text"
+                  class="form-control is-invalid"
+                  id="validationServer03"
+                  placeholder="Yerba Buena"
+                  aria-describedby="validationServer03Feedback"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer04" class="form-label"
+                  >Provincia</label
+                >
+                <select
+                  class="form-select is-invalid"
+                  id="validationServer04"
+                  aria-describedby="validationServer04Feedback"
+                  required
+                >
+                  <option selected disabled value="">Seleccione</option>
+                  <option>Buenos Aires</option>
+                  <option>Capital Federal</option>
+                  <option>Catamarca</option>
+                  <option>Chaco</option>
+                  <option>Chubut</option>
+                  <option>Cordoba</option>
+                  <option>Corrientes</option>
+                  <option>Entre Ríos</option>
+                  <option>Formosa</option>
+                  <option>Jujuy</option>
+                  <option>La Pampa</option>
+                  <option>La Rioja</option>
+                  <option>Mendoza</option>
+                  <option>Misiones</option>
+                  <option>Neuquén</option>
+                  <option>Rio Negro</option>
+                  <option>Salta</option>
+                  <option>San Juan</option>
+                  <option>San Luis</option>
+                  <option>Santa Cruz</option>
+                  <option>Santa Fe</option>
+                  <option>Santiago del Estero</option>
+                  <option>Tierra del Fuego</option>
+                  <option>Tucumán</option>
+                </select>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer05" class="form-label"
+                  >Código Postal</label
+                >
+                <input
+                  type="number"
+                  class="form-control is-invalid"
+                  id="validationServer05"
+                  aria-describedby="validationServer05Feedback"
+                  placeholder="4107"
+                  maxlength="6"
+                  required
+                />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer06" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="text"
+                  class="form-control is-invalid"
+                  id="validationServer06"
+                  placeholder="*******"
+                  aria-describedby="validationServer06Feedback"
+                  minlength="6"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <label for="validationServer07" class="form-label"
+                  >Repita Contraseña</label
+                >
+                <input
+                  type="text"
+                  class="form-control is-invalid"
+                  id="validationServer07"
+                  placeholder="*******"
+                  aria-describedby="validationServer07Feedback"
+                  minlength="6"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div>
+                <p>Mínimo 8 carácteres</p>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input is-invalid"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck3"
+                    aria-describedby="invalidCheck3Feedback"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck3">
+                    Estas de acuerdo con los términos y condiciones.
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Registrar</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -223,55 +448,59 @@
     <footer class="container-fluid colorFondo">
       <section class="container">
         <article class="row">
-        <div class="col-sm-12 col-md-4 col-lg-4 py-4 logoResponsive">
-          <a href="../index.html"><img src="../img/iconLogo.png" alt="icono del logotipo de blog del firu" width="90px"></a>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4 py-4">
-          <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-light aria-current="
-                href="../index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="Razas.html"
-                >Nuestras Razas</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="AcercaDeNosotros.html"
-                >Acerca de Nosotros</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="Contacto.html"
-                >Contacto</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="Error504.html"
-                >Legales</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4 py-4  text-light">
-          <h5 class="logoResponsive">Seguinos en nuestras redes</h5>
-          <div class=" d-flex redesResponsive">
-            <a href="Error504.html" class="text-white facebook" target="blank"
-              ><i class="fab fa-facebook-square fa-2x px-1"></i
-            ></a>
-            <a href="Error504.html" class="text-white twitter" target="blank"
-              ><i class="fab fa-twitter-square fa-2x px-1"></i
-            ></a>
-            <a href="Error504.html" class="text-white instagram" target="blank"
-              ><i class="fab fa-instagram fa-2x px-1"></i
-            ></a>
+          <div class="col-sm-12 col-md-4 col-lg-4 py-4 logoResponsive">
+            <a href="../index.html"
+              ><img
+                src="../img/iconLogo.png"
+                alt="icono del logotipo de blog del firu"
+                width="90px"
+            /></a>
           </div>
-        </div>
-      </article>
+          <div class="col-sm-12 col-md-4 col-lg-4 py-4">
+            <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light aria-current="
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="Razas.html"
+                  >Nuestras Razas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="AcercaDeNosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="Error504.html">Legales</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 py-4 text-light">
+            <h5 class="logoResponsive">Seguinos en nuestras redes</h5>
+            <div class="d-flex redesResponsive">
+              <a href="Error504.html" class="text-white facebook" target="blank"
+                ><i class="fab fa-facebook-square fa-2x px-1"></i
+              ></a>
+              <a href="Error504.html" class="text-white twitter" target="blank"
+                ><i class="fab fa-twitter-square fa-2x px-1"></i
+              ></a>
+              <a
+                href="Error504.html"
+                class="text-white instagram"
+                target="blank"
+                ><i class="fab fa-instagram fa-2x px-1"></i
+              ></a>
+            </div>
+          </div>
+        </article>
       </section>
     </footer>
 
